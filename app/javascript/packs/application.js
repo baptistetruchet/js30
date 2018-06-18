@@ -39,3 +39,7 @@ if (page9) { challenge9() }
 import { challenge10 } from '../challenges/challenge10';
 const page10 = document.getElementById('challenge10');
 if (page10) { challenge10() }
+
+import { challenge11 } from '../challenges/challenge11';
+const page11 = document.getElementById('challenge11');
+if (page11) { challenge11() }
