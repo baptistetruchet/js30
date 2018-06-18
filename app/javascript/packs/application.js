@@ -27,3 +27,7 @@ if (page6) { challenge6() }
 import { challenge7 } from '../challenges/challenge7';
 const page7 = document.getElementById('challenge7');
 if (page7) { challenge7() }
+
+import { challenge8 } from '../challenges/challenge8';
+const page8 = document.getElementById('challenge8');
+if (page8) { challenge8() }
