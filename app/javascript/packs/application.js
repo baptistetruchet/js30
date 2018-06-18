@@ -11,3 +11,11 @@ if (page2) { challenge2() }
 import { challenge3 } from '../challenges/challenge3';
 const page3 = document.getElementById('challenge3');
 if (page3) { challenge3() }
+
+import { challenge4 } from '../challenges/challenge4';
+const page4 = document.getElementById('challenge4');
+if (page4) { challenge4() }
+
+import { challenge5 } from '../challenges/challenge5';
+const page5 = document.getElementById('challenge5');
+if (page5) { challenge5() }
