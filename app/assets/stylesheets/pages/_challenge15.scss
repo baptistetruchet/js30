@@ -4,12 +4,13 @@
   background-size:cover;
   min-height:100vh;
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 
-  *, *:before, *:after {box-sizing: inherit; }
+  *, *:before, *:after {box-sizing: unset; }
 
   svg {
     fill:white;
@@ -68,6 +69,7 @@
 
   .add-items {
     margin-top: 20px;
+    display: flex;
   }
 
   .add-items input {
