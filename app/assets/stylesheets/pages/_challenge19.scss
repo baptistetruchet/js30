@@ -2,9 +2,11 @@
   box-sizing: border-box;
   font-size: 10px;
   background:#ffc600;
+  padding: 10px;
+  min-height: 100vh;
 
-  *, *:before, *:after {
-    box-sizing: inherit;
+  .rgb {
+    width: 150px;
   }
 
   .photobooth {
@@ -28,7 +30,7 @@
 
   .player {
     position: absolute;
-    top:20px;
+    top: 40px;
     right: 20px;
     width:200px;
   }
