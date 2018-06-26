@@ -82,5 +82,17 @@
     transition:all 0.2s;
     text-transform: uppercase;
   }
+}
 
+#challenge24.fixed-nav {
+  nav {
+    position: fixed;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  }
+  li.logo {
+    max-width: 500px;
+  }
+  .site-wrap {
+    transform: scale(1);
+  }
 }

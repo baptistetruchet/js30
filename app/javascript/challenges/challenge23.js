@@ -34,7 +34,7 @@ function challenge23() {
   voicesDropdown.addEventListener('change', setVoice);
   options.forEach(option => option.addEventListener('change', setOption));
   speakButton.addEventListener('click', toggle);
-  stopButton.addEventListener('click', () => toggle(false));
+  stopButton.addEventListener('click', () => toggle(false)); // or toggle.bind(null, false)
 }
 
 export { challenge23 }
