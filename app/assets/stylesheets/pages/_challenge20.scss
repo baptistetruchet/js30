@@ -4,10 +4,12 @@
   font-family: 'helvetica neue';
   font-weight: 200;
   font-size: 20px;
+  padding: 50px 0;
+  min-height: 100vh;
 
   .words {
     max-width:500px;
-    margin:50px auto;
+    margin:0 auto;
     background:white;
     border-radius:5px;
     box-shadow:10px 10px 0 rgba(0,0,0,0.1);
