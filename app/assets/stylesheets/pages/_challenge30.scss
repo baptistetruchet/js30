@@ -2,9 +2,11 @@
   box-sizing: border-box;
   font-size: 10px;
   background: #ffc600;
-  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin:0;
-  // font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', cursive;
+  min-height: 100vh;
 
   *, *:before, *:after {
     box-sizing: inherit;
@@ -41,7 +43,7 @@
 
   .hole:after {
     display: block;
-    background: url(dirt.svg) bottom center no-repeat;
+    background: asset-url('dirt.svg') bottom center no-repeat;
     background-size:contain;
     content:'';
     width: 100%;
@@ -52,7 +54,7 @@
   }
 
   .mole {
-    background:url('mole.svg') bottom center no-repeat;
+    background: asset-url('mole.svg') bottom center no-repeat;
     background-size:60%;
     position: absolute;
     top: 100%;
